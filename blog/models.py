@@ -1,7 +1,7 @@
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
-from django.db.migrations import Migration
+# from django.db.migrations import Migration
 
 class Post(models.Model):
     author = models.ForeignKey(User)
